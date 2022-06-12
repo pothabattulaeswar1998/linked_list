@@ -33,20 +33,6 @@ int main()
 
         struct Node *temp = ch;
 
-/*      while(temp != NULL)
-        {
-                printf("The linked characters are = %c\n",temp->data);
-
-                temp = temp->next;
-        }*/
-
-
-/*      printf("ch->data : %c\n",ch->data);
-        printf("ch1->data : %c\n",ch->next->data);
-        printf("ch2->data : %c\n",ch->next->next->data);
-        printf("ch3->data : %c\n",ch->next->next->next->data);
-        printf("ch4->data : %c\n",ch->next->next->next->next->data);
-*/
 
         printf("ch->data : %c\n",ch->data);
         temp = temp->next;
