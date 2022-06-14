@@ -1,6 +1,5 @@
 /********* Linked list program for characters A B C D E ************/
 
-/* hi eswar */
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -19,7 +18,8 @@ int main()
         struct Node *ch2 = (struct Node*)malloc(sizeof(struct Node));
         struct Node *ch3 = (struct Node*)malloc(sizeof(struct Node));
         struct Node *ch4 = (struct Node*)malloc(sizeof(struct Node));
-
+	
+	printf("Hello Gopinath!");
 
         ch->data = 'A';
         ch1->data = 'B';
